@@ -1,0 +1,12 @@
+{
+  "name": "json-server-blog-posts",
+  "description": "Simple Blog Posts REST API made by Kiam Khan Limon",
+  "scripts": {
+    "start": "json-server --watch db.json --static ./public/index.html --port 9000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "keywords": ["json-server", "blog-posts", "REST API"],
+  "author": "Kiam Khan Limon, limon.btcz"
+}

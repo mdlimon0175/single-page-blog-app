@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form_input {
+    @apply w-full p-2 mb-4 border rounded focus:outline-none placeholder:capitalize
+  }
+
+  .common_btn {
+    @apply px-4 py-2 text-white rounded mr-2 capitalize last:mr-0
+  }
+}
